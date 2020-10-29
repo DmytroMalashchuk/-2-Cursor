@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дз1</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<table>
+    <th>КУРС ВАЛЮТ</th>
+    <tr><td><br></td></tr>
+    <tr>
+        <td></td>
+        <td>Покупка</td>
+        <td>Продажа</td>
+    </tr>
+    <tr>
+        <td>USD</td>
+        <td><div><span class="buy"></span></div></td>
+        <td><div><span class="sale"></span></div></td>
+    </tr>
+    <tr>
+        <td>EUR</td>
+        <td><div><span class="buy"></span></div></td>
+        <td><div><span class="sale"></span></div></td>
+    </tr>
+    <tr>
+        <td>RUB</td>
+        <td><div><span class="buy"></span></div></td>
+        <td><div><span class="sale"></span></div></td>
+    </tr>
+</table>
+<div id = "panelBackground">
+    <div><p>Введите денежную сумму!</p></div>
+    <select id="currencySelection">
+        <option>USD</option>
+        <option>EUR</option>
+        <option>RUB</option>
+    </select>
+    <input type="text" id="inputAmount">
+    <button id="btnBuy">Купить</button>
+    <button id="btnSale">Продать</button>
+    <div id="outputResult"></div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

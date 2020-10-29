@@ -1,0 +1,23 @@
+table{
+    position: relative;
+    left: -10px;
+    top: -10px;
+    color: black;
+    background-color: cornflowerblue;
+}
+body{
+    background-color: coral;
+}
+#panelBackground{
+color: black;
+background-color: lightslategray;
+width: 350px;
+height: 80px;
+margin: 0 auto;
+}
+#currencySelection{
+    margin-left: 3px;
+}
+p{
+    text-align: center;
+}
